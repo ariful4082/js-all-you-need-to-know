@@ -9,7 +9,9 @@
    ```
     NodeJS VS-Code Terminal Git
    ```
-   ## Chapter Two
+
+## Chapter Two
+
 5. First Code of JS
 6. What is Variable
 7. JS Reserve Words
@@ -22,3 +24,30 @@
    ```
 10. JS Basic Strings
     ` String Constructor`
+
+11. JS Basic Booleans
+12. JS Null & Undefiend
+13. JS Type Conversion
+14. Octal and Hexadecimal Numbers
+15. JS Operators
+16. JS Statements
+17. JS Math Function
+18. JS Date Functions
+19. JS Comments
+
+## Chapter Three `Logic & Condition`
+
+20. JS Logic and Condition
+
+    ```
+    1. if Condition
+    2. else Condition
+    3. else if Condition
+    4. switch Statements
+
+    ```
+
+21. JS if Condition
+22. JS Else Condition
+23. JS else if Condition
+24. JS Switch Statements

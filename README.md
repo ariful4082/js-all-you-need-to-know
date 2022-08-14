@@ -51,3 +51,6 @@
 22. JS Else Condition
 23. JS else if Condition
 24. JS Switch Statements
+25. JS Logical Operators
+26. JS Ternary Operator
+27. And Or Shorthand

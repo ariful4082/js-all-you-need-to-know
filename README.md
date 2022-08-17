@@ -54,3 +54,30 @@
 25. JS Logical Operators
 26. JS Ternary Operator
 27. And Or Shorthand
+
+## Chapter Four `Loop`
+
+28. Introduction to loop
+    `For Loop While Loop Do While Loop`
+29. JS For Loop
+30. JS While Loop
+31. JS Do While Loop
+32. JS Nested Loop
+33. JS Break Statement
+34. JS Continue
+35. JS Infinity for loop
+
+## Chapter Five `String`
+
+36. JS String
+37. String Literal Constructor
+38. JS Escape Notation
+39. JS String Comparison
+40. JS String Methods
+41. JS String Length
+
+## Chapter Siz `Array`
+
+42. JS Array
+43. JS Array Declaration
+44. JS Array Traversing

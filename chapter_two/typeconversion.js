@@ -19,17 +19,17 @@ NaN
 
 */
 
-console.log(Boolean(''))
-console.log(Boolean('ablsjelrfjs3'))
+console.log(Boolean(""));
+console.log(Boolean("ablsjelrfjs3"));
 
-console.log(Boolean(null))
-console.log(Boolean(undefined))
+console.log(Boolean(null));
+console.log(Boolean(undefined));
 
-console.log(Boolean(0))
-console.log(Boolean(451))
+console.log(Boolean(0));
+console.log(Boolean(451));
 
 var x = true;
 
-console.log(x.toString())
+console.log(x.toString());
 
 // ** String Number Boolean

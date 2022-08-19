@@ -6,6 +6,7 @@
 2. Who is this Course for?
 3. How to use this course contents
 4. Setup Working Environment
+
    ```
     NodeJS VS-Code Terminal Git
    ```
@@ -16,14 +17,16 @@
 6. What is Variable
 7. JS Reserve Words
 8. JS Data Types
-   - [x] Primitive ` Number String Boolean null undefine`
+   - [x] Primitive `Number String Boolean null undefine`
    - [x] Object `Array Object Function`
 9. JS Basic Numbers
+
    ```
    infinity NaN
    ```
+
 10. JS Basic Strings
-    ` String Constructor`
+    `String Constructor`
 
 11. JS Basic Booleans
 12. JS Null & Undefiend
@@ -90,3 +93,14 @@
 ## Chapter Seven `Object`
 
 50. JS Object
+51. JS Object Literal vs Object Contractor
+52. Accessing Object Property
+53. Setting Object Property in JS
+54. Remove Object Property
+55. Comparing Two Objects in JS
+56. Iterator Properties in Javascript
+57. Object Methods in Javascript
+
+## Chapter Eight `Function`
+
+58. What is Function

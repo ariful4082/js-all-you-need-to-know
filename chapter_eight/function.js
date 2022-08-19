@@ -3,3 +3,8 @@
 //**What is Function */
 
 // Input Output Processing
+
+var date = new Date();
+date.getFullYear();
+
+

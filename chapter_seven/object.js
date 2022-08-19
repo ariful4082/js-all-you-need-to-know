@@ -50,10 +50,17 @@ var point = {
 // console.log(point[show]);
 
 
-point.x = 45;
-point.y = 16;
-var prop = 55;
+// point.x = 45;
+// point.y = 16;
+// var prop = 55;
+// // console.log(point)
+
+
 // console.log(point)
 
+//**********Remove Object******** */
 
-console.log(point)
+
+delete point.z;
+
+console.log(point);

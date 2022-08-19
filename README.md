@@ -76,8 +76,17 @@
 40. JS String Methods
 41. JS String Length
 
-## Chapter Siz `Array`
+## Chapter Six `Array`
 
 42. JS Array
 43. JS Array Declaration
 44. JS Array Traversing
+45. JS Array Insert Remove and Replace
+46. JS Search Value
+47. Multidimensional Array
+48. JS Reverse An Array
+49. JS Array Methods
+
+## Chapter Seven `Object`
+
+50. JS Object

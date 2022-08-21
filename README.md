@@ -121,3 +121,7 @@
 70. Higher Order Function
 71. Closure First Look in JS
 72. Callback Function in JS
+73. forEach Implementation in JS
+74. Map Function in JS
+75. Filter Function in JS
+76. Reduce Function in JS

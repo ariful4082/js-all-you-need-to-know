@@ -104,3 +104,20 @@
 ## Chapter Eight `Function`
 
 58. What is Function
+59. Defining A Function
+60. Invoke a function
+61. Function Arguments and Parameter
+62. Argument Object in JS
+63. Return Something from a Function
+64. Function Expression in JS
+65. Inner Function
+66. Function Scoping in JS;
+
+## Chapter Nine `Function Programming`
+
+67. Intro Function
+68. Pure Function
+69. First Class Function
+70. Higher Order Function
+71. Closure First Look in JS
+72. Callback Function in JS

@@ -125,3 +125,7 @@
 74. Map Function in JS
 75. Filter Function in JS
 76. Reduce Function in JS
+77. Find and FindIndex in js
+78. Sort , every and some method in js
+79. Return Function From Another Function In Javascript
+80. Recursive Function in Javascript

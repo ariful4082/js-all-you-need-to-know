@@ -129,3 +129,5 @@
 78. Sort , every and some method in js
 79. Return Function From Another Function In Javascript
 80. Recursive Function in Javascript
+81. Currying in Javascript
+82. Function Composition in Javascript

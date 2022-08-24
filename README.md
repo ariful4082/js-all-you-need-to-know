@@ -131,3 +131,25 @@
 80. Recursive Function in Javascript
 81. Currying in Javascript
 82. Function Composition in Javascript
+
+## Chapter Ten `Scope And Closure`
+
+83. Javascript Engine
+84. compile vs context
+85. Execution Context
+86. Creation and Execution of Context in Javascript
+87. Variable Object Creation in JS
+88. Execurtion Context and Function in JS
+89. Hoisting in Javascript
+90. Function Declaration vs Expression in JS
+91. Scope in Javascript
+92. Nested Scope in Javascript
+93. Lexical Scope in Javascript
+94. Scope Chain in Javascript
+95. Closure in Javascript
+96. Closure and Loops in JS
+
+## Chapter Eleven `OOP`
+
+97. Intro to OOP in Javascript
+98.

@@ -149,7 +149,20 @@
 95. Closure in Javascript
 96. Closure and Loops in JS
 
-## Chapter Eleven `OOP`
+## Chapter Eleven `OOP Theory`
 
 97. Intro to OOP in Javascript
-98.
+98. Think Everything as Object in Javascript
+99. Methods and Properties in Javascript
+100.  Class in OOP
+101.  Four Pillars of OOP
+102.  Abstraction
+103.  Encapsulation
+104.  Inheritance
+105.  Polymorphism
+
+## Chapter Twelve `OOP Codding`
+
+106. Intro ot Object Oriented in Javascript
+107. Object Literal in Javascript
+108.

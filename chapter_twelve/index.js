@@ -117,14 +117,15 @@
 // console.log(str)
 // console.log('My String is '+ str)
 
-function test(){
-  console.log('Something')
+function test() {
+  console.log("Something");
 }
-console.log(test.name, test.length)
+// console.log(test.name, test.length)
 
-
-
-var Rect =  new Function('width', 'height', `
+var Rect = new Function(
+  "width",
+  "height",
+  `
 
     this.width = width;
     this.height = height;
@@ -140,8 +141,94 @@ var Rect =  new Function('width', 'height', `
     };
   
 
-`)
+`
+);
 
-var rect5 = new Rect(4,5)
+var rect5 = new Rect(4, 5);
 
-console.log(rect5);
+// console.log(rect5);
+
+function myFunc(c, d) {
+  console.log(this);
+  console.log(this.a + this.b + c + d);
+}
+
+// myFunc.call({a:40, b:25}, [10, 5])
+// myFunc.apply({})
+// myFunc()
+
+// var testBind = myFunc.bind({a:7, b:3})
+// testBind(5,7)
+
+//*******Pass by value vs Pass By Reference******** */
+//***************Call By value vs Call by Reference******* */
+
+var n = 10;
+
+function change(n) {
+  n = n + 100;
+  console.log(n);
+}
+change(n);
+console.log(n);
+
+var obj = {
+  a: 10,
+  b: 20,
+};
+
+function changeMe(obj) {
+  obj.a = obj.a + 100;
+  obj.b = obj.b + 100;
+  console.log(obj);
+}
+
+changeMe(obj);
+
+console.log(obj);
+
+//==========================Abstraction============================//
+
+var Rectangle = function (width, height) {
+  
+  var position = {
+    x: 58,
+    y: -100,
+  };
+
+  this.width = width;
+  this.height = height;
+
+  var printProperties = function () {
+    console.log("My Width is " + this.width);
+    console.log("My Height is " + this.height);
+  }.bind(this)
+
+  // this.getPosition = function(){
+  //   return position;
+  // }
+
+
+
+  this.draw = function () {
+    console.log("I am a rectangle");
+    printProperties();
+    console.log("Position X= " + position.x + "Y= " + position.y);
+  };
+
+  Object.defineProperty(this, 'position', {
+    get:function(){
+      return position;
+    },
+    set: function(value){
+      position = value
+    }
+  })
+};
+
+var rect7 = new Rectangle(45, 30);
+rect7.draw()
+rect7.position = {
+  x:356, y:489
+}
+console.log(rect7.position)

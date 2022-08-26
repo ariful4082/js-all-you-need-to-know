@@ -172,4 +172,8 @@
 112. Factory VS Constructor in Javascript
 113. Constructor Property in Javascript
 114. Functions Are Object in Javascript
-115.
+115. Bind, Call, Apply in Javascript
+116. Pass By Value vs Pass By Reference
+117. Abstraction in Javascript
+118. Private Properties in javascript
+119. How to use Getter Setter in Javascript

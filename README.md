@@ -177,3 +177,7 @@
 117. Abstraction in Javascript
 118. Private Properties in javascript
 119. How to use Getter Setter in Javascript
+
+## Chapter Thirteen
+
+120. Intro to Inheritance in Javascript

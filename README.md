@@ -184,3 +184,5 @@
 121. Prototype and Prototypical Inheritance in Javascript
 122. Multi Level Inheritance in Javascript
 123. Property Descriptor in Javascript
+124. Constructor Prototype in Javascript
+125.

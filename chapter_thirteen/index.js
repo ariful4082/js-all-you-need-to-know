@@ -19,9 +19,9 @@
 // console.log(p1)
 
 
-var person = {
-  name: 'Ariful Islam'
-}
+// var person = {
+//   name: 'Ariful Islam'
+// }
 // console.log(person)
 
 // for(var i in person){
@@ -38,11 +38,23 @@ var person = {
 
 // console.log(descriptor)
 
-Object.defineProperty(person, 'name', {
-  enumerable: false,
-  writable: false,
-  configurable: false,
-  value: 'Abdullah Al Zarif'
-})
+// Object.defineProperty(person, 'name', {
+//   enumerable: false,
+//   writable: false,
+//   configurable: false,
+//   value: 'Abdullah Al Zarif'
+// })
 
 
+function Person(name) {
+  this.name= name
+}
+
+Person.prototype.PI = 3.1416
+
+var p1 = new Person('Ariful Islam')
+var p2 = new Person('Abdulla Al Zarif')
+console.log(p1)
+
+
+console.log(p2)

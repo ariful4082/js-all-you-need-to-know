@@ -178,7 +178,7 @@
 118. Private Properties in javascript
 119. How to use Getter Setter in Javascript
 
-## Chapter Thirteen
+## Chapter Thirteen `Prototypical Inheritance Basic`
 
 120. Intro to Inheritance in Javascript
 121. Prototype and Prototypical Inheritance in Javascript
@@ -189,3 +189,8 @@
 126. Using Instance Na Prototype Members in javascript
 127. Iterate Object and HasOwnProperty in Javascript
 128. Don't Overwrite Build in Prototypes in Javascript
+
+## Chapter Fourteen `Inheritance & Custom Inheritance`
+
+129. First Prototypical Inheritance in Javascript
+130. Reset Constructor After Inheritance in Javascript

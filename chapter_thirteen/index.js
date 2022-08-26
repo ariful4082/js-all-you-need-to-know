@@ -46,15 +46,33 @@
 // })
 
 
-function Person(name) {
-  this.name= name
+// function Person(name) {
+//   this.name= name
+// }
+
+// Person.prototype.PI = 3.1416
+
+// var p1 = new Person('Ariful Islam')
+// var p2 = new Person('Abdulla Al Zarif')
+// console.log(p1)
+
+
+// console.log(p2)
+
+function Square(width){
+  this.width = width;
+   
 }
 
-Person.prototype.PI = 3.1416
+Square.prototype= {
+  draw: function(){
+    console.log('Draw')
+  },
+  toString: function (){
+    return 'My width is = '+ this.width
+  }
 
-var p1 = new Person('Ariful Islam')
-var p2 = new Person('Abdulla Al Zarif')
-console.log(p1)
+}
 
-
-console.log(p2)
+var sqr1 = new Square(10)
+var sqr2 = new Square(5)

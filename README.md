@@ -165,4 +165,9 @@
 
 106. Intro ot Object Oriented in Javascript
 107. Object Literal in Javascript
-108.
+108. This in Javascript
+109. Factory Pattern In Javascript
+110. Constructor Pattern In Javascript
+111. New Keyword in Javascript
+112. Factory VS Constructor in Javascript
+113.

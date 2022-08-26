@@ -20,6 +20,10 @@ Square.prototype.draw = function () {
   this.getWidth();
   console.log("Draw");
 };
+Square.prototype.common = function () {
+  Shape.prototype.common.call(this)
+    console.log('I am calling from Square and I have Overridden')
+}
 
 // var shape = new Shape();
 var sqr = new Square(45, 'green');
@@ -39,3 +43,16 @@ extend(Shape, Circle)
 
 var circle = new Circle(5, 'red')
 // var cir = new Circle(50)
+
+Circle.prototype.common = function () {
+  // Shape.prototype.common.call(this)
+    console.log('I am calling from circle and I have Overridden')
+}
+
+var s = new Shape('Purple')
+
+var shapes = [s, circle, sqr]
+
+for(var i of shapes){
+  console.log(i.common());
+}

@@ -197,3 +197,6 @@
 131. Calling Super with Call Method in Javascript
 132. Creating Extends Function in Javascript
 133. Method Overriding in Javascript
+134. Polymorphism in Javascript
+135. When to Use Inheritance in Javascript
+136.

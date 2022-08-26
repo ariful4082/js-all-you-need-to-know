@@ -170,4 +170,6 @@
 110. Constructor Pattern In Javascript
 111. New Keyword in Javascript
 112. Factory VS Constructor in Javascript
-113.
+113. Constructor Property in Javascript
+114. Functions Are Object in Javascript
+115.

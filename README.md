@@ -181,3 +181,6 @@
 ## Chapter Thirteen
 
 120. Intro to Inheritance in Javascript
+121. Prototype and Prototypical Inheritance in Javascript
+122. Multi Level Inheritance in Javascript
+123. Property Descriptor in Javascript

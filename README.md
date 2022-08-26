@@ -194,3 +194,6 @@
 
 129. First Prototypical Inheritance in Javascript
 130. Reset Constructor After Inheritance in Javascript
+131. Calling Super with Call Method in Javascript
+132. Creating Extends Function in Javascript
+133. Method Overriding in Javascript

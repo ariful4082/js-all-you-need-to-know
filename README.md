@@ -199,4 +199,9 @@
 133. Method Overriding in Javascript
 134. Polymorphism in Javascript
 135. When to Use Inheritance in Javascript
-136.
+136. Inheritance & Composition Mixing in Javascript
+
+## Chapter Fifteen `ES6`
+
+137. What is ES6 in Javascript
+138.

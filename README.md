@@ -185,4 +185,7 @@
 122. Multi Level Inheritance in Javascript
 123. Property Descriptor in Javascript
 124. Constructor Prototype in Javascript
-     125.Instance vs Prototype Members in Javascript
+125. Instance vs Prototype Members in Javascript
+126. Using Instance Na Prototype Members in javascript
+127. Iterate Object and HasOwnProperty in Javascript
+128. Don't Overwrite Build in Prototypes in Javascript

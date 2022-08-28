@@ -204,4 +204,7 @@
 ## Chapter Fifteen `ES6`
 
 137. What is ES6 in Javascript
-138.
+138. Setup your Environment
+139. Template String in Javascript
+140. Let vs Const vs Var in Javascript
+141.

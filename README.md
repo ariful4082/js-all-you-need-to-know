@@ -207,4 +207,5 @@
 138. Setup your Environment
 139. Template String in Javascript
 140. Let vs Const vs Var in Javascript
-141.
+141. Arrow Function Syntax in Javascript
+142. Arrow Functions & This in Javascript

@@ -217,11 +217,12 @@
 148. Object From Entries in javascript
 149. Symbols in Javascript
 150. Webpack 4 + Babel 7
-     `Webpack & Babel Setup
+     `
+     Webpack & Babel Setup
 
-- [x] webpack, webpack-cli, webpack-dev-server
-- [x] @babel/core @babel/cli @babel/node @babel/polyfill @babel/preset-env @babel/register babel-loader babel-register html-webpack-plugin
-- [x] npx webpack-cli init
+     - [1] webpack, webpack-cli, webpack-dev-server
+     - [2] @babel/core @babel/cli @babel/node @babel/polyfill @babel/preset-env @babel/register babel-loader babel-register html-webpack-plugin
+     - [3] npx webpack-cli init
 
 `
 

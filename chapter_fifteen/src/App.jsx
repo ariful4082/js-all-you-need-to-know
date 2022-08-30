@@ -1,102 +1,145 @@
-import { useState } from "react";
+import React from "react";
+
 import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0);
+const App = () => {
+  //   let obj = {
+  //     start: 1,
+  //     end: 5,
+  //     [Symbol.iterator]: function () {
+  //       let currentValue = this.start;
+  //       const self = this;
+  //       return {
+  //         next() {
+  //           return {
+  //             done: currentValue > self.end,
+  //             value: currentValue >= self.end ? undefined : currentValue++,
+  //           };
+  //         },
+  //       };
+  //     },
+  //   };
 
-  // var s = `     dslseraiwtrj
+  //   for (let v of obj) {
+  //     console.log(v);
+  //   }
 
-  // afljsiea;eaje
+  //   let iterate = obj[Symbol.iterator]();
 
-  //      ;alsjeflaej
-  // ;aweofjsl
-  // `;
+  //   console.log(iterate.next());
+  //   console.log(iterate.next());
+  //   console.log(iterate.next());
+  //   console.log(iterate.next());
+  //   console.log(iterate.next());
+  //   console.log(iterate.next());
+  //   console.log(iterate.next());
+  //   console.log(iterate.next());
 
-  // console.log(s.trim());
+  //   function sum() {
+  //     let sum = 0;
+  //     for (let i = 0; i < arguments.length; i++) {
+  //       sum += arguments[i];
+  //     }
 
-  // var age = 14;
-  // var name = "Ariful islam";
+  //     return sum;
+  //   }
 
-  // console.log("My name is " + name + " and I am " + age + " years old.");
-  // console.log(
-  //   `My name is ${name} and I am ${age} year old. I am ${
-  //     age < 18 ? "not" : ""
-  //   } Adult`
-  // );
+  //   function sum(...rest) {
+  //     return rest.reduce((a, b) => a + b);
+  //   }
+  //   console.log(sum(1, 3, 4, 5, 6));
 
-  // console.log(name.padStart(15, "-"));
-  // console.log(name.padEnd(20, "."));
-  // console.log("s".repeat(10));
+  //   let a = [1, 2, 3];
+  //   console.log(...a);
 
-  // let a = 10;
-  // a = 100;
-  // console.log(a);
-  if (true) {
-    let a = 10;
-  }
+  //   let obj = {
+  //     a: 10,
+  //     b: 20,
+  //     c: 30,
+  //   };
 
-  // console.log(a);
-  // for (let i = 0; i < 10; i++) {}
+  //   let obj2 = {
+  //     ...obj,
+  //   };
 
-  // // console.log(i);
+  //   console.log(obj2);
 
-  // {
-  //   let iAmLet = "I am Let";
-  // }
-  // console.log(iAmLet);
+  //   let a = 10,
+  //     b = 20;
+  //   let obj = {
+  //     a,
+  //     b,
+  //     print() {
+  //       console.log(this);
+  //     },
+  //   };
 
-  // (function () {
-  //   var abc = "ABC";
-  //   console.log(abc);
-  // })();
+  //   //   console.log(obj.print());
+  //   obj.print();
 
-  //***************Arrow Function************** */
+  //***************Destructuring in Javascript************ */
+  //   let person = {
+  //     name: "Ariful Islam",
+  //     email: "ariful4082@gmail.com",
+  //     address: {
+  //       city: "Dhaka",
+  //       country: "Bangladesh",
+  //     },
+  //   };
 
-  // function add(a, b) {
-  //   return a + b;
-  // }
+  //   let {
+  //     name,
+  //     email,
+  //     address: { city, country },
+  //   } = person;
+  //   console.log(name);
+  //   console.log(email);
+  //   console.log(city, country);
 
-  // let sum = function (a, b) {
-  //   return a + b;
-  // };
+  /**
+   * Array
+   */
 
-  // let add = (a, b) => a + b;
+  //   let arr = [1, 2, 3, 4, 5];
+  //   let [first, second, , , last] = arr;
+  //   console.log(first, second, last);
 
-  // console.log(add(45, 50));
+  //**********Object From Entries************ */
+  //   let obj = {
+  //     a: 10,
+  //     b: 20,
+  //   };
 
-  // let sqr = (x) => x * x;
-  // function testMe() {
-  //   console.log(this);
-  // }
+  //   console.log(Object.entries(obj));
 
-  // testMe.call({});
+  //   let objArr = [
+  //     ["a", 10],
+  //     ["b", 20],
+  //   ];
 
-  // let obj = {
-  //   name: "Ariful islam",
-  //   print: () => {
-  //     console.log(this);
-  //   },
-  // };
-  // obj.print();
-  // testMe.call({});
+  //   console.log(Object.fromEntries())
 
-  let obj = {
-    name: "Ariful islam",
-    print: function () {
-      let self = this;
-      setTimeout(() => {
-        console.log(this);
-        console.log(`Hello, ${this.name}`);
-      }, 1000);
-    },
+  //*************Symbol*********** *
+  //   let s1 = Symbol();
+  //   let s2 = Symbol("Test Symbol");
+
+  //   console.log(s1);
+  //   console.log(s2);
+
+  //   console.log(s1 === s2);
+
+  let toss = {
+    HEAD: Symbol("HEAD"),
+    TAIL: Symbol("TAIL"),
   };
-  obj.print();
+
+  toss.HEAD;
 
   return (
-    <div className="App">
+    <div>
       <h1>Hello World</h1>
     </div>
   );
-}
+};
 
 export default App;

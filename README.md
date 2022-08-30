@@ -209,3 +209,20 @@
 140. Let vs Const vs Var in Javascript
 141. Arrow Function Syntax in Javascript
 142. Arrow Functions & This in Javascript
+143. Default Parameters in javascript
+144. Custom Iterable Object in Javascript
+145. Rest & Spread Operator in javascript
+146. Enhance Object in Javascript
+147. Destructuring in Javascript
+148. Object From Entries in javascript
+149. Symbols in Javascript
+150. Webpack 4 + Babel 7
+     `Webpack & Babel Setup
+
+- [x] webpack, webpack-cli, webpack-dev-server
+- [x] @babel/core @babel/cli @babel/node @babel/polyfill @babel/preset-env @babel/register babel-loader babel-register html-webpack-plugin
+- [x] npx webpack-cli init
+
+`
+
+151. Iterator Basics in javascript

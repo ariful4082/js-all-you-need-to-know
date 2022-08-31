@@ -221,11 +221,11 @@
 
     `
 
-    #### Webpack & Babel Setup
+    <h3> Webpack & Babel Setup</h3>
 
-        - [x] webpack, webpack-cli, webpack-dev-server
-        - [x] @babel/core @babel/cli @babel/node @babel/polyfill @babel/preset-env @babel/register babel-loader babel-register html-webpack-plugin
-        - [x] npx webpack-cli init
+            1. webpack, webpack-cli, webpack-dev-server
+            2. @babel/core @babel/cli @babel/node @babel/polyfill @babel/preset-env @babel/register babel-loader babel-register html-webpack-plugin
+            3 npx webpack-cli init
 
     `
 

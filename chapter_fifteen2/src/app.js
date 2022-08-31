@@ -1,6 +1,6 @@
-const arr = [
-    10,22,35
-]
+// const arr = [
+//     10,22,35
+// ]
 // for(let i = 0; i<arr.length; i++){
 //     console.log(arr[i])
 // }
@@ -102,7 +102,7 @@ function *generate(collection){
         yield collection[i]
     }
 }
-let it = generate(arr);
+// let it = generate(arr);
 // console.log(it.next())
 // console.log(it.next())
 // console.log(it.next())
@@ -111,12 +111,12 @@ let it = generate(arr);
 //********** Set Method*********** */
 
 
-let set = new Set([1,2,3])
+// let set = new Set([1,2,3])
 
-set.add(5)
-set.add(6)
-set.add(1)
-set.add(2)
+// set.add(5)
+// set.add(6)
+// set.add(1)
+// set.add(2)
 
 // console.log(set)
 // console.log(set.size)
@@ -140,17 +140,17 @@ set.add(2)
 
 //*****************Map in Javascript*********** */
 
-let map = new Map([
-    ['a', 10],
-    ['b', 20],
-    ['c', 30],
-]);
-map.set('d', 40)
+// let map = new Map([
+//     ['a', 10],
+//     ['b', 20],
+//     ['c', 30],
+// ]);
+// map.set('d', 40)
 
-map.set({name: 'Ariful islam'}, 45)
+// map.set({name: 'Ariful islam'}, 45)
 
 // map.delete('c')
-console.log(map)
+// console.log(map)
 // console.log(map.size)
 // console.log(map.get('c'))
 // console.log(map.keys())
@@ -166,3 +166,25 @@ console.log(map)
 // map.forEach((v, k)=>{
 //     console.log(k, v)
 // })
+
+//************Weak Set*********** */
+
+// let a={a:10}, b={b: 20}
+// let set = new Set([a,b])
+
+// a=null
+// console.log(set)
+
+// let arr= [...set];
+// console.log(arr[0]);
+
+// let weakSet = new WeakSet([a, b])
+// a=null
+// console.log(weakSet.has(b))
+
+// let weakMap  = new WeakMap([[a, 45], [b,75]])
+// a=null
+// console.log(weakMap.get(a))
+// console.log(weakMap.has(b))
+
+//*****************Class in ES6******** */

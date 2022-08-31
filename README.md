@@ -235,3 +235,5 @@
 154. Generators in Javascript
 155. Set in Javascript
 156. Map in Javascript
+157. Weak Set in Javascript
+158. Weak Map in Javascript

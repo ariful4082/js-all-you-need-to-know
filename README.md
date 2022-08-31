@@ -218,13 +218,16 @@
 149. Symbols in Javascript
 150. Webpack 4 + Babel 7
 
-`#### Webpack & Babel Setup
 
-     - [1] webpack, webpack-cli, webpack-dev-server
-     - [2] @babel/core @babel/cli @babel/node @babel/polyfill @babel/preset-env @babel/register babel-loader babel-register html-webpack-plugin
-     - [3] npx webpack-cli init
+    `
 
-`
+    #### Webpack & Babel Setup
+
+        - [x] webpack, webpack-cli, webpack-dev-server
+        - [x] @babel/core @babel/cli @babel/node @babel/polyfill @babel/preset-env @babel/register babel-loader babel-register html-webpack-plugin
+        - [x] npx webpack-cli init
+
+    `
 
 151. Iterator Basics in javascript
 152. Iterator with Symbol in Javascript

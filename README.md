@@ -217,8 +217,8 @@
 148. Object From Entries in javascript
 149. Symbols in Javascript
 150. Webpack 4 + Babel 7
-     `
-     Webpack & Babel Setup
+
+`#### Webpack & Babel Setup
 
      - [1] webpack, webpack-cli, webpack-dev-server
      - [2] @babel/core @babel/cli @babel/node @babel/polyfill @babel/preset-env @babel/register babel-loader babel-register html-webpack-plugin
@@ -227,3 +227,8 @@
 `
 
 151. Iterator Basics in javascript
+152. Iterator with Symbol in Javascript
+153. For of Loop in Javascript
+154. Generators in Javascript
+155. Set in Javascript
+156. Map in Javascript

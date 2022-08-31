@@ -103,7 +103,66 @@ function *generate(collection){
     }
 }
 let it = generate(arr);
-console.log(it.next())
-console.log(it.next())
-console.log(it.next())
-console.log(it.next())
+// console.log(it.next())
+// console.log(it.next())
+// console.log(it.next())
+// console.log(it.next())
+
+//********** Set Method*********** */
+
+
+let set = new Set([1,2,3])
+
+set.add(5)
+set.add(6)
+set.add(1)
+set.add(2)
+
+// console.log(set)
+// console.log(set.size)
+// set.clear();
+// set.delete(5)
+
+// console.log(set.has(6))
+// console.log(set)
+// console.log(set.keys())
+// console.log(set.values())
+
+// let keyIterate = set.keys();
+// console.log(keyIterate.next())
+
+// for(let v of set){
+//     console.log(v)
+// }
+
+
+// console.log(set.entries())
+
+//*****************Map in Javascript*********** */
+
+let map = new Map([
+    ['a', 10],
+    ['b', 20],
+    ['c', 30],
+]);
+map.set('d', 40)
+
+map.set({name: 'Ariful islam'}, 45)
+
+// map.delete('c')
+console.log(map)
+// console.log(map.size)
+// console.log(map.get('c'))
+// console.log(map.keys())
+// console.log(map.values())
+// console.log(map.entries())
+
+
+
+// for(let [ k, v] of map){
+//     console.log(k, v)
+// }
+
+// map.forEach((v, k)=>{
+//     console.log(k, v)
+// })

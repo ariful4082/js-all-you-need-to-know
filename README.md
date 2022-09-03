@@ -247,4 +247,13 @@
 166. Inheritance in ES6
 167. Method Overriding in ES6
 168. ES6 Modules System in Javascript
+
+## Chapter Sixteen `Error`
+
 169. Error in Javascript
+170. Erro Handling with Else in Javascript
+171. Error Handling with try catch in javascript
+172. Throwing an Error in Javascript
+173. Finally Block in Javascript
+174. OptionalCatch Binding in Javascript
+175. Custom Error in Javascript

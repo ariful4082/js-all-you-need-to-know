@@ -237,3 +237,14 @@
 156. Map in Javascript
 157. Weak Set in Javascript
 158. Weak Map in Javascript
+159. Class in Javascript
+160. Class Properties
+161. Static Method in Javascript
+162. This in javascript class
+163. Private Data with Symbol in Javascript
+164. Private Data With WeakMap in Javascript
+165. Getter & Setter in ES6
+166. Inheritance in ES6
+167. Method Overriding in ES6
+168. ES6 Modules System in Javascript
+169. Error in Javascript

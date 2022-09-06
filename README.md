@@ -289,3 +289,7 @@
 199. GetElements Method vs Query Selector in Javascript
 200. How to Traverse DOM Elements in Javascript
 201. How to Loop Throw HTML Collections in Javascript
+202. Create DOM Elements in Javascript
+203. Insert Adjacent Element in Javascript
+204. Update & Remove any DOm Elements in Javascript
+205. How to Clone Node Include it's Child elements in Javascript

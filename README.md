@@ -279,7 +279,7 @@
 192. For Await of Loop in Javascript
 193. Async Generator in Javascript
 
-## Chapter Eighteen
+## Chapter Eighteen `DOM Manipulation`
 
 194. Introduction to DOM
 195. Window Object in Javascript
@@ -293,3 +293,8 @@
 203. Insert Adjacent Element in Javascript
 204. Update & Remove any DOm Elements in Javascript
 205. How to Clone Node Include it's Child elements in Javascript
+206. How to Deal with Attributes in DOM
+207. Style DOM in Javascript
+208. Introduction to Event in DOM
+209. Event Delegation in DOM
+210. Input Box Event Handling in Javascript

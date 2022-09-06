@@ -60,3 +60,16 @@ setTimeout(()=>{
 let lastItem = list.lastElementChild.cloneNode(true);
 lastItem.innerHTML='Five'
 list.appendChild(lastItem)
+
+// console.log(list.attributes)
+// console.log(list.getAttributeNames())
+// console.log(list.getAttributeNode('class'))
+// console.log(list.getAttribute('id'))
+
+// console.log(list.classList)
+// lastItem.id = 'lastItem'
+
+// lastItem.setAttribute('id', 'last-item')
+let attr = document.createAttribute('title')
+attr.value = 'I am Title'
+lastItem.setAttributeNode(attr)

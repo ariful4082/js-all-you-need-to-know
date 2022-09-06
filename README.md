@@ -263,3 +263,29 @@
 176. What is Asynchronous Programming in Javascript
 177. Asynchronous Programming is Action in Javascript
 178. How to Store Result from Async function in Javascript
+179. Why does Javascript Act Like Asynchronous
+180. How JS Handle Asynchronous
+181. v8 Engine in Javascript
+182. How to Handle Asynchronous Task in javascript
+183. What is Ajax
+184. Ajax With Callback in Javascript
+185. Callback Not Always Asynchronous in Javascript
+186. Why Not Callback in Javascript
+187. Introduction to Promise in javascript
+188. Implement Fetch API in Javascript
+189. Promise API in Javascript
+190. Async Await in javascript
+191. Async Iterator in javascript
+192. For Await of Loop in Javascript
+193. Async Generator in Javascript
+
+## Chapter Eighteen
+
+194. Introduction to DOM
+195. Window Object in Javascript
+196. Document Object in Javascript
+197. Selectors Part One in Javascript
+198. Selectors Part Two in Javascript
+199. GetElements Method vs Query Selector in Javascript
+200. How to Traverse DOM Elements in Javascript
+201. How to Loop Throw HTML Collections in Javascript

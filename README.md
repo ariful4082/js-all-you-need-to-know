@@ -302,3 +302,4 @@
 212. List and Input Event Handler in Javascript
 213. Form Handing in Dom In Javascript
 214. Form Validation in Dom in Javascript
+215. AJAX GET Request in javascript

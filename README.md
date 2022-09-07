@@ -298,3 +298,5 @@
 208. Introduction to Event in DOM
 209. Event Delegation in DOM
 210. Input Box Event Handling in Javascript
+211. Check Box Event Handling in Javascript
+212. List and Input Event Handler in Javascript

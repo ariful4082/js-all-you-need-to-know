@@ -300,3 +300,5 @@
 210. Input Box Event Handling in Javascript
 211. Check Box Event Handling in Javascript
 212. List and Input Event Handler in Javascript
+213. Form Handing in Dom In Javascript
+214. Form Validation in Dom in Javascript

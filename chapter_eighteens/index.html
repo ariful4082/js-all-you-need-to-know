@@ -18,50 +18,60 @@
   </head>
   <body>
     <div class="container">
-      <h1 id="title" class="text-center my-3">Hello world!</h1>
-      <h2>Tip: Check your console</h2>
+      <form id="form">
+        <label><strong>Please Fill The Form</strong></label>
+        <div class="form-group">
+          <label for="name">What is Your Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="form-control"
+            placeholder="Enter Your Name"
+          />
+          <div class="invalid-feedback">You Must Have to Provide a Name</div>
+        </div>
 
-      <ul class="list-group my-5" id="list">
-        <li class="list-group-item" id="one">One</li>
-        <li class="list-group-item">Two</li>
-        <li class="list-group-item">Three</li>
-        <div id="show-name"></div>
-      
-      </ul>
-      <div class="form-group"><label for="">What is Your Name</label><input type="text" class="form-control" id="name" placeholder="Enter Name"></div>
+        <div class="form-group">
+          <label for="email">What is Your Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="form-control"
+            placeholder="Enter Your email"
+          />
+          <div class="invalid-feedback">You Must Have to Provide a email</div>
+        </div>
 
-      <div class="form-group">
-        <label for="">Choose Your Skills</label>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" name="skills" value="Go Lang">
-          <label for="" class="form-check-label">Go Lang</label>
+        <div class="form-group">
+          <label for="email">What is Your Password</label>
+          <input
+            type="Password"
+            id="Password"
+            name="Password"
+            class="form-control"
+            placeholder="Enter Your Password"
+          />
+          <div class="invalid-feedback">
+            You Must Have to Provide a Password
+          </div>
         </div>
-     
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" name="skills" value="Java">
-          <label for="" class="form-check-label">Java</label>
+
+        <div class="form-group">
+          <label for="country">Select Your Country</label>
+          <select name="country" id="country" class="form-control">
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="India">India</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Afghanistan">Afghanistan</option>
+          </select>
+          <div class="invalid-feedback">
+            You Must Have to Provide a Password
+          </div>
         </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" name="skills" value="Javascript">
-          <label for="" class="form-check-label">Javascript</label>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" name="skills" value="Python">
-          <label for="" class="form-check-label">Python</label>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" name="skills" value="C Programming">
-          <label for="" class="form-check-label">C Programming</label>
-        </div>
-        <h4>Selected Skills: </h4>
-      <div id="result">
-       
-      </div>
-      <div>
-      <button class="btn btn-success" id="btn">ADD ME</button>
-      <div class="box my-5" id="box">
-        <p>( <span id="x-value">0</span>, <span id="y-value">0</span> )</p>
-      </div>
+        <input type="submit" value="Submit" class="btn btn-primary" />
+      </form>
     </div>
   </body>
 

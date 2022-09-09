@@ -304,3 +304,6 @@
 214. Form Validation in Dom in Javascript
 215. AJAX GET Request in javascript
 216. Ajax Post Request in Javascript
+217. Conclusion of DOM Manipulation
+
+## Chapter_Nineteen `Library in Javascript`

@@ -1,4 +1,4 @@
 // import './lessons/lesson2';
-import './lessons/loadPost';
+import './lessons/postData';
 
 // console.log('Hello World')

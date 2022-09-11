@@ -307,3 +307,13 @@
 217. Conclusion of DOM Manipulation
 
 ## Chapter_Nineteen `Library in Javascript`
+
+218. What is Library
+219. JQuery || Javascript DOM Library
+220. Lodash || Javascript Utility Library
+221. Underscore || Javascript Utility Library
+222. Math JS || Javascript Math Library
+223. Moment JS || Javascript Date & Time Library
+224. Collect JS || Javascript Collection Library
+225. Axios || HTTP Client
+226. Conclusion

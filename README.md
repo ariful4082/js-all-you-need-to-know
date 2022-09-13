@@ -317,3 +317,18 @@
 224. Collect JS || Javascript Collection Library
 225. Axios || HTTP Client
 226. Conclusion
+227. Frontend in Javascript
+     `
+
+     1. HTML
+     2. CSS
+     3. Bootstrap
+     4. Jquery
+     5. React.JS
+     6. VUE.JS
+     7. Angular.JS
+     8. Svelte
+
+        `
+
+228. Backend in Javascript
